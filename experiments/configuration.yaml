@@ -9,8 +9,8 @@ exp_dir: experiments/test
 
 dataset:
   alphabet_path: data/alphabet.txt
-  train_csv_path: data/clarin/train.csv
-  dev_csv_path: data/clarin/dev.csv
+  train_csv_path: /home/jingjinli/Librispeech-csv/train-clean-100-processed.csv
+  dev_csv_path: /home/jingjinli/Librispeech-csv/dev-clean-processed.csv
 
   parameters:
     batch_size: 30
